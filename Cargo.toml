@@ -1,0 +1,10 @@
+[package]
+name = "retro_lynx"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+figment = { version = "0.10", features = ["json"] }
+serde_json = "1.0"
